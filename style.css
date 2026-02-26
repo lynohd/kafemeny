@@ -1,0 +1,38 @@
+:root{
+    --padding: 20px;
+}
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: #f6f1e8;
+    color: #2e2a26;
+    line-height: 1.6;
+    background-color: gray;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 100vh;
+}
+
+header {
+    border-bottom: solid 1px black;
+    font-size: 2rem;
+    padding: var(--padding);
+    text-align: center;
+}
+
+section{
+    /* height: 100%; */
+}
+
+footer{
+    padding: 0px var(--padding);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
